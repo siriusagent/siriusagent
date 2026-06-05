@@ -33,6 +33,11 @@ SiriusAgent will be distributed as a signed standalone macOS app. Public release
 artifacts, when available, will be attached through GitHub Releases or linked
 from this repository.
 
+Current builds are **strict pre-release unstable builds**. They are published
+only so early testers can validate installation and auto-update behavior. Do
+not treat any alpha build as an RC, production release, compatibility promise,
+or support boundary.
+
 Source code is not published here.
 
 ## Authorship
