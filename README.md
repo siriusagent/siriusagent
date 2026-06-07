@@ -40,6 +40,26 @@ or support boundary.
 
 Source code is not published here.
 
+## Recommended System Requirements
+
+Minimum recommended Mac: Apple Silicon M2 or newer with 16 GB RAM.
+
+Sirius also requires a user-installed Python to be available for local tools,
+MCP servers, skills, document workflows, and other integrations that launch
+Python outside the app bundle. The app bundles its own runtime for Sirius
+itself, but user-owned tool processes should be able to run `python3` from a
+normal Terminal login shell.
+
+Recommended Python installs:
+
+- Homebrew Python on Apple Silicon: `/opt/homebrew/bin/python3`
+- Python.org macOS installer: `/Library/Frameworks/Python.framework/Versions/3.x/bin/python3`
+- Version-manager shims when configured in your login shell: `~/.pyenv/shims/python3`, `~/.asdf/shims/python3`, or `~/.local/bin/python3`
+- Xcode Command Line Tools Python, when present: `/usr/bin/python3`
+
+For best results, open a new Terminal window and confirm `python3 --version`
+works before using Python-backed tools in Sirius.
+
 ## Authorship
 
 SiriusAgent is built and directed by Mikholae Hutchinson. Demonstration content
